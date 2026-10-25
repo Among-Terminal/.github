@@ -2,14 +2,14 @@
 
 # Among Terminal
 
-A native GNOME terminal multiplexer built with Rust, GTK4, libadwaita and VTE.
+A native GNOME terminal multiplexer built with Rust, GTK4, libadwaita, and VTE.
 
 | Repository | What it is |
 |---|---|
-| [among](https://github.com/Among-Terminal/among) | The terminal multiplexer. Rust, GTK4, libadwaita, VTE. |
-| [Among-Terminal.github.io](https://github.com/Among-Terminal/Among-Terminal.github.io) | Documentation site. |
+| [among](https://github.com/Among-Terminal/among) | The terminal multiplexer. Rust, GTK4, libadwaita, VTE |
+| [plugins](https://github.com/Among-Terminal/among-plugins) | Official plugins |
 
-Keep shells running in split panes and named, colour-coded workspaces.
+Keep shells running in split panes and named, color-coded workspaces.
 Resize and rearrange panes, work from the keyboard, restore layouts into fresh
 shells, and add optional live status plugins.
 
