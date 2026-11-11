@@ -20,6 +20,7 @@ shells, and add optional live status plugins.
 |---|---|
 | [among](https://github.com/Among-Terminal/among) | The terminal. Build and contributor documentation live here |
 | [among-plugins](https://github.com/Among-Terminal/among-plugins) | Official plugins: clock, system status, pane directory |
+| [awesome-among-terminal](https://github.com/Among-Terminal/awesome-among-terminal) | Community list of plugins and resources. Add yours with a pull request |
 | [among-plugin-template](https://github.com/Among-Terminal/among-plugin-template) | Start a plugin from this template. Holds the author guide and the API reference |
 | [Among-Terminal.github.io](https://github.com/Among-Terminal/Among-Terminal.github.io) | Source of the user documentation site |
 | [appimage-tools](https://github.com/Among-Terminal/appimage-tools) | Verified copies of the tools that build the AppImage |
@@ -31,7 +32,7 @@ standard input and output, and draws the result itself: text, icons and small
 meters in the window, workspace, sidebar or a pane. A plugin cannot type into a
 terminal, read its scrollback or create its own widgets.
 
-You install plugins in **Preferences → Plugins**. Among downloads a ready-built
+Open Settings with `Ctrl+,` and select Plugins. Among downloads a ready-built
 package from a GitHub release, checks its size and hashes, and leaves the plugin
 disabled. Before it runs, you review the access it asks for and accept it. Each
 plugin runs confined with Landlock and seccomp, with no network access. On a
@@ -40,7 +41,9 @@ kernel without Landlock a plugin starts only after you allow reduced protection.
 The official plugins come from
 [among-plugins](https://github.com/Among-Terminal/among-plugins). You can add
 other sources, which are GitHub repositories that publish the same kind of
-release.
+release. Community plugins listed in
+[awesome-among-terminal](https://github.com/Among-Terminal/awesome-among-terminal)
+are not reviewed by the project.
 
 To write a plugin, create a repository from
 [among-plugin-template](https://github.com/Among-Terminal/among-plugin-template).
